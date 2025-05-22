@@ -3,36 +3,46 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>MindMatch Prelaunch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindMatch Pre-Launch</title>
     <style>
         body {
-            background-color: #1e1536;
+            background-color: #1e0f3f;
+            font-family: Arial, sans-serif;
             color: white;
-            font-family: 'Segoe UI', sans-serif;
             text-align: center;
-            padding: 40px;
-        }
-        input, button {
-            padding: 10px;
-            margin-top: 10px;
-            font-size: 16px;
-            border-radius: 5px;
-            border: none;
-        }
-        button {
-            background-color: #6a0dad;
-            color: white;
-            cursor: pointer;
-        }
-        video {
-            margin-top: 20px;
-            width: 100%;
-            max-width: 500px;
-            border-radius: 10px;
+            padding: 20px;
         }
         img {
             margin-top: 20px;
-            width: 120px;
+            width: 150px;
+        }
+        video {
+            margin-top: 30px;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #a78bfa;
+        }
+        input[type="email"] {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            width: 250px;
+            margin-right: 10px;
+        }
+        button {
+            background-color: #7c3aed;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #ccc;
         }
     </style>
 </head>
@@ -42,10 +52,16 @@
     <p>Een nieuw sociaal platform gebouwd op echtheid, vertrouwen en veiligheid.</p>
     <input type="email" placeholder="Jouw e-mailadres">
     <button>Schrijf mij in</button>
-    <video controls autoplay loop muted>
+
+    <video autoplay muted loop>
         <source src="moment.mp4" type="video/mp4">
-        Je browser ondersteunt deze video niet.
+        Jouw browser ondersteunt deze video niet.
     </video>
+
     <p>"Vandaag voel ik me krachtig. Ik kies ervoor om te delen wat echt is."</p>
+
+    <footer>
+        Gemaakt door de oprichter, samen met Buck. Eén visie. Eén oorsprong. Eén leider.
+    </footer>
 </body>
 </html>

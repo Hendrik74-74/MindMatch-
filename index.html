@@ -7,61 +7,57 @@
     <title>MindMatch Pre-Launch</title>
     <style>
         body {
-            background-color: #1e0f3f;
+            margin: 0;
             font-family: Arial, sans-serif;
+            background-color: #1d0f2f;
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 40px 20px;
         }
-        img {
-            margin-top: 20px;
-            width: 150px;
-        }
-        video {
-            margin-top: 30px;
-            width: 90%;
-            max-width: 600px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px #a78bfa;
+        .logo {
+            width: 120px;
+            margin: 0 auto 30px;
         }
         input[type="email"] {
             padding: 10px;
-            border: none;
-            border-radius: 4px;
             width: 250px;
-            margin-right: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            outline: none;
         }
         button {
-            background-color: #7c3aed;
-            border: none;
-            color: white;
             padding: 10px 15px;
-            border-radius: 4px;
+            background-color: #8c52ff;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
             cursor: pointer;
         }
-        footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #ccc;
+        video {
+            width: 100%;
+            max-width: 400px;
+            margin: 30px auto;
+            border-radius: 10px;
+            display: block;
+        }
+        .quote {
+            font-style: italic;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
-    <img src="logo.png" alt="MindMatch Logo">
+    <img src="logo.png" alt="MindMatch Logo" class="logo">
     <h1>Welkom bij MindMatch</h1>
     <p>Een nieuw sociaal platform gebouwd op echtheid, vertrouwen en veiligheid.</p>
-    <input type="email" placeholder="Jouw e-mailadres">
-    <button>Schrijf mij in</button>
-
-    <video autoplay muted loop>
+    <form>
+        <input type="email" placeholder="Jouw e-mailadres">
+        <button type="submit">Schrijf mij in</button>
+    </form>
+    <video autoplay loop muted>
         <source src="moment.mp4" type="video/mp4">
-        Jouw browser ondersteunt deze video niet.
+        Je browser ondersteunt geen video.
     </video>
-
-    <p>"Vandaag voel ik me krachtig. Ik kies ervoor om te delen wat echt is."</p>
-
-    <footer>
-        Gemaakt door de oprichter, samen met Buck. Eén visie. Eén oorsprong. Eén leider.
-    </footer>
+    <p class="quote">"Vandaag voel ik me krachtig. Ik kies ervoor om te delen wat echt is."</p>
 </body>
 </html>

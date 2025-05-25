@@ -14,10 +14,11 @@ body {
   text-align: center;
 }
 
-img.logo {
-  width: 150px;
-  height: 150px;
-  animation: rotateLogo 6s linear infinite;
+.logo {
+  width: 160px;
+  height: auto;
+  animation: spin 8s linear infinite;
+}
 }
 
 @keyframes rotateLogo {

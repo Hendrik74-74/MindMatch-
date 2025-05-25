@@ -14,10 +14,9 @@ body {
 }
 
 .logo {
-    width: 180px;
-    height: auto;
-    animation: spin 8s linear infinite;
-    transform: rotateY(0deg);
+  width: 180px;
+  height: auto;
+  animation: spin 8s linear infinite;
 }
 
 @keyframes spin {

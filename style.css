@@ -1,10 +1,8 @@
-
-/* MindMatch CSS */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom right, #8000ff, #b300ff);
+  background: linear-gradient(to bottom right, #7b00ff, #b300ff);
   color: white;
   display: flex;
   flex-direction: column;
@@ -15,12 +13,16 @@ body {
 }
 
 .logo {
-  width: 160px;
+  width: 180px;
   height: auto;
-  animation: spin 6s linear infinite;
+  animation: spin 8s linear infinite;
 }
 
 @keyframes spin {
-  0% { transform: rotateY(0deg); }
-  100% { transform: rotateY(360deg); }
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }

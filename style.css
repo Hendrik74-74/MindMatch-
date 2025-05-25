@@ -22,8 +22,8 @@ body {
   filter: drop-shadow(0 0 15px rgba(255, 0, 255, 0.8));
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.2);
+  transform: scaleX(-1); /* Draait horizontaal terug naar correct */
 }
-
 h1 {
   font-size: 2em;
   margin: 0;
